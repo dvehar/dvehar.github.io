@@ -21,7 +21,8 @@ Motivate Me is a simple but elegant Amazon Alexia Skill that can play motivation
 
 View Your Favorite Pictures in a colorful "snow".
 
-### Skittles
+### :snake: Skittles
 
-A Snake Variant
+A Snake Variant.
+<br>Built using JS and HTML5 Canvas. 🎮 [play it here](https://dvehar.github.io/dvehar/projects/skittles/)
 
