@@ -24,13 +24,13 @@ Motivate Me is a simple but elegant Amazon Alexia Skill that can play motivation
 - 💾 [Amazon Product Page Link](https://www.amazon.com/Desmond-Vehar-Motivate-Me/dp/B01NAKTIOS)
 - 🧑‍💻[Repo](https://github.com/dvehar/motivateme)
 
-### :star: Snow Image
+### :star: Snow Image (March 2015)
 
 View Your Favorite Pictures in a colorful "snow".
 - This is my favorite project. 🎨 [play around with it here](https://dvehar.github.io/dvehar/projects/snow-image/)
 - 🧑‍💻[Repo](https://github.com/dvehar/snow_image)
 
-### :snake: Skittles
+### :snake: Skittles (2013)
 
 A Snake Variant.
 - Built using JS and HTML5 Canvas. 🎮 [play it here](https://dvehar.github.io/dvehar/projects/skittles/)
