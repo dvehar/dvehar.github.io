@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="preety.css">
+		
+		<title>Skittles</title>
+		
+		<!--[Include Engine Source Files Here]-->
+		<script src="brine.js"></script>
+		
+		<!--[Include Your Source Files Here]-->
+	</head>
+	
+	<body onload="initGame('canvas');" height="600" bgcolor="black" style="margin:0px; margin-top: 50px; padding:0px; color: white;">
+		
+		
+		
+		<div class="box">
+			<h4>Skittles</h4>
+			<p>Goal: Try to destroy the snake as fast as possible!</p>	
+			<div style="width:742; height:532; margin: 2; padding: 5px;">
+				<canvas id="canvas" width="742" height="532" style="border:solid black;">You'll see this if there's a problem.</canvas>
+					<script src="all.js"></script>
+            </div>
+			<h4>How To Play</h4>
+			<p>Combine 3 or more same colors on the snake to remove them.<br>Gray food will kill you!<br>Going off screen will kill you!</p>
+			<p>Controls:</p>
+			<pre>
+				<p>   WASD/Arrows = Up, Left, Down, Right<br>   Spacebar = Shift Color Backwards<br>   Shift = Shift Colors Forwards<br></p>
+			</pre>
+		</div>
+	</body>
+</html>
