@@ -26,12 +26,15 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
 
-        {% for item in site.my_nav %}
-            <li class="{% if item.url == page.url %}active{% endif %}">
-              <a href="{{ item.url }}">{{ item.title }}</a>
-            </li>
-        {% endfor %}
-       
+        {% if site.my_nav %} 
+          <ul>
+          {% for item in site.my_nav %}
+              <li class="{% if item.url == page.url %}active{% endif %}">
+                <a href="{{ item.url }}">{{ item.title }}</a>
+              </li>
+          {% endfor %}
+          </ul>
+       {% endif  %}
       </header>
       <section>
 
@@ -39,12 +42,11 @@
 
       </section>
       <footer>
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.resume_url }}">Download <strong>Resume</strong></a></li>
-          <li><a href="{{ site.linkedin_url }}">LinkedIn</li>
-        </ul>
-        {% endif %}
+          {% if site.show_downloads %}
+          <a href="https://dvehar.github.io/files/Desmond_Vehar_Resume.pdf">Resume</a>
+          | 
+          <a href="https://www.linkedin.com/in/desmond-vehar/"><img src="https://dvehar.github.io/images/linkedin.jpg" width="16" height="16" style="vertical-align: middle;"></a>
+          {% endif %}
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
