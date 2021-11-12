@@ -1,0 +1,27 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+.avatar-user {
+    border-radius: 50% !important;
+}
+
+.avatar {
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1;
+    vertical-align: middle;
+    background-color: var(--color-avatar-bg);
+    border-radius: 6px;
+    flex-shrink: 0;
+    box-shadow: 0 0 0 1px var(--color-avatar-border);
+}
+
+.width-full {
+    width: 100% !important;
+}
+
+.color-bg-primary {
+    background-color: var(--color-canvas-default) !important;
+}
