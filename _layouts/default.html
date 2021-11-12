@@ -20,6 +20,8 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
+        
+        <a href="{{ site.linkedin_url }}"><img style="height:auto;" alt="" width="260" height="260" class="avatar avatar-user width-full border color-bg-primary" src="{{ profile_pic_url }}"></a>
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
