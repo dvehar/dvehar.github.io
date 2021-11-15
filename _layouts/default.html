@@ -41,6 +41,15 @@
       {{ content }}
 
       </section>
+      <footer>
+          {% if site.show_downloads %}
+          <a href="https://dvehar.github.io/files/Desmond_Vehar_Resume.pdf">Resume</a>
+          | 
+          <a href="https://www.linkedin.com/in/desmond-vehar/"><img src="https://dvehar.github.io/images/linkedin.jpg" width="24" height="24" style="vertical-align: middle;"></a> 
+          <a href="mailto:{{ site.email_contact }}"><img src="https://dvehar.github.io/images/mail_icon.png" width="24" height="24" style="vertical-align: middle;"></a>
+          <a href="{{ site.github.owner_url }}"><img src="https://dvehar.github.io/images/github_icon.png" width="24" height="24" style="vertical-align: middle;"></a>
+          {% endif %}
+      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
