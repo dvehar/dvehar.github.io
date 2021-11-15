@@ -27,11 +27,11 @@ Motivate Me is a simple but elegant Amazon Alexia Skill that can play motivation
 ### 🎉 Snow Image (March 2015)
 
 View Your Favorite Pictures in a colorful "snow".
-- This is my favorite project. 🎨 [play around with it here](https://dvehar.github.io/dvehar/projects/snow-image/)
+- This is my favorite project. 🎨 [play around with it here](https://dvehar.github.io/projects/snow-image/)
 - 🧑‍💻[Repo](https://github.com/dvehar/snow_image)
 
 ### 🐍 Skittles (2013)
 
 A Snake Variant.
-- Built using JS and HTML5 Canvas. 🎮 [play it here](https://dvehar.github.io/dvehar/projects/skittles/)
+- Built using JS and HTML5 Canvas. 🎮 [play it here](https://dvehar.github.io/projects/skittles/)
 - 🧑‍💻[Repo](https://github.com/dvehar/dvehar/tree/gh-pages/projects/skittles)
