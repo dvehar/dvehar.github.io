@@ -34,4 +34,4 @@ View Your Favorite Pictures in a colorful "snow".
 
 A Snake Variant.
 - Built using JS and HTML5 Canvas. 🎮 [play it here](https://dvehar.github.io/projects/skittles/)
-- 🧑‍💻[Repo](https://github.com/dvehar/dvehar/tree/gh-pages/projects/skittles)
+- 🧑‍💻[Repo](https://github.com/dvehar/dvehar.github.io/tree/gh-pages/projects/skittles)
